@@ -1,24 +1,20 @@
-import Link from "next/link";
 import ReactWhatsapp from "react-whatsapp";
 
 
-const NavMobile = ({ navData }) => {
+const NavMobile = () => {
 
   const handleCall = () => {
-    const phoneNumber = '+91 7760021889';
+    const phoneNumber = '+91 7676945766';
 
     window.location.href = `tel:${phoneNumber}`;
   }
   return (
     <nav className="bg-white w-full p-4">
       <ul className="flex flex-col gap-y-6">
-        {/* {navData.map((item, idx) => {
-
-          const { name, href } = item
-          return ( */}
+       
             <li>
    
-      <ReactWhatsapp number="+91 7760021889" message="Hello">
+      <ReactWhatsapp number="+91 7676945766" message="Hello">
         <a className="text-[#18c3c9] hover:text-accent-hover cursor-pointer">
           Whatsapp
         </a>
@@ -29,13 +25,7 @@ const NavMobile = ({ navData }) => {
       Call Now
       </a>
     </li>
-            {/* <li key={idx}>
-              <Link href={href}>
-                <a className="text-accent-hover hover:text-accent">{name}</a>
-              </Link>
-            </li> */}
-          {/* )
-        })} */}
+        
       </ul>
     </nav>
   )

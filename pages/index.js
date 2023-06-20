@@ -29,7 +29,6 @@ const Home = ({
   footerData }) => {
   return (
     <div className='overflow-hidden max-w-[1600px] mx-auto bg-gradient-to-r from-sky-500 to-teal-100 '>
-    {/* <div className='overflow-hidden max-w-[1600px] mx-auto bg-page '> */}
 
       <Hero heroData={heroData} headerData={headerData} navData={navData} />
       <About aboutData={aboutData} />
@@ -38,7 +37,6 @@ const Home = ({
       <Testimonials testimonialData={testimonialData} />
       <Footer footerData={footerData} />
       <Copyright />
-      {/* <div className='h-[2000px]'></div> */}
     </div>
   );
 };

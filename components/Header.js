@@ -14,7 +14,7 @@ const Header = ({ headerData, navData }) => {
   const [navMobile, setNavMobile] = useState(false)
 
 
-  const { logoImgV1, logoImgV2, btnText,logo1,logo2 } = headerData
+  const { logo1,logo2 } = headerData
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -23,7 +23,7 @@ const Header = ({ headerData, navData }) => {
   })
 
   const handleCall = () => {
-    const phoneNumber = '+91 7760021889';
+    const phoneNumber = '+91 7676945766';
 
     window.location.href = `tel:${phoneNumber}`;
   }

@@ -1,7 +1,6 @@
 import Image from "next/image";
-import Accordion from '../components/Accordion';
 import { motion } from 'framer-motion';
-import { fadeInLeft, fadeInRight, staggerAccordionContainer, staggerTextContainer } from '../variants';
+import { fadeInLeft, fadeInRight,  staggerTextContainer } from '../variants';
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronLeft,
@@ -10,19 +9,13 @@ import { faCircleChevronLeft,
  } from "@fortawesome/free-solid-svg-icons";
 
 const Faq = ({ faqData }) => {
-  const { pretitle, title, boyImg, accordions, gallery } = faqData
+  const {  title, boyImg,  gallery } = faqData
   const [loading,setLoading] = useState(true)
 
-  // const [sliderNumer, setSlideNumber] = useState(0)
-  // const [openModal, setOpenModal] = useState(false)
-  // const handleOpenModal = (index)=>{
-  //   setSlideNumber(index)
-  //   setOpenModal(true)
-  // }
+
 
   const [openModal, setOpenModal] = useState(false);
 const [selectedImageIndex, setSelectedImageIndex] = useState(0);
-const [direction, setDirection] = useState(null);
 
 const handleOpenModal = (index) => {
   setSelectedImageIndex(index);
@@ -52,7 +45,6 @@ const nextSlide = ()=>{
          <motion.div
           variants={fadeInRight}
           className='lg:max-w-[45%]'>
-          {/* <h3 className='h3'>{pretitle}</h3> */}
           <h2 className='lead'>{title}</h2>
          </motion.div>
          <motion.div
@@ -64,17 +56,7 @@ const nextSlide = ()=>{
 
 
 <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
- {/* {openModal &&
-      <div className='sliderWrap'>
-      <FontAwesomeIcon icon={faCircleXmark} className="btnClose"/>
-      <FontAwesomeIcon icon={faCircleChevronLeft} className="btnPrev"/>
-      <FontAwesomeIcon icon={faCircleChevronRight} className="btnNext"/>
 
-      
-      
-      
-      </div>
-      } */}
       {openModal && (
   <div className="sliderWrap">
     <FontAwesomeIcon
@@ -85,13 +67,11 @@ const nextSlide = ()=>{
     <FontAwesomeIcon
       icon={faCircleChevronLeft}
       className="btnPrev"
-      // onClick={() => setDirection("prev")}
       onClick={prevSlide}
     />
     <FontAwesomeIcon
       icon={faCircleChevronRight}
       className="btnNext"
-      // onClick={() => setDirection("next")}
       onClick={nextSlide}
     />
 <div className="fullScreenImage">
@@ -114,18 +94,7 @@ const nextSlide = ()=>{
   </div>
 </div>
 
-        {/* <motion.div
-        variants={staggerAccordionContainer}
-        initial='initial'
-        whileInView={'animate'}
-        viewport={{once: false, amount:0.4}}
-         className='grid grid-cols-1 lg:grid-cols-2 gap-x-[20px] gap-y-[10px]'>
-          {accordions.map((accordion, idx)=> {
-            return(
-              <Accordion accordion={accordion} key={idx}/>
-            )
-          })}
-        </motion.div> */}
+       
       </div>
     </section>
   )
