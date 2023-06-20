@@ -26,7 +26,7 @@ module.exports = {
         primary: '#402B2B',
         accent: {
           DEFAULT: '#EE4D47',
-          hover: '#DA423D',
+          hover: '#0d7d85',
         },
         tint: '#FDEDE8',
         darkblue: '#0F264C',
@@ -37,7 +37,9 @@ module.exports = {
         tertiary: '0 20px 40px rgba(32, 56, 100, 0.3);',
       },
       backgroundImage: {
-        hero: "url('/images/hero/scene.svg')",
+        // hero: "url('/images/hero/scene.svg')",
+        hero: "url('/images/hero/bg-1.jpg')",
+
         faq: "url('/images/faq/bg.svg')",
         footer: "url('/images/footer/bg.svg')",
       },

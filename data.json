@@ -2,41 +2,66 @@
   "headerData": {
     "logoImgV1": "/images/header/logoV1.svg",
     "logoImgV2": "/images/header/logoV2.svg",
-    "btnText": "Contact us"
+    "btnText": "Contact us",
+    "logo1" : "/images/header/logo.svg",
+    "logo2" : "/images/header/logo1.svg"
+
   },
 
   "navData": [
-    { "name": "About", "href": "/" },
-    { "name": "How to", "href": "/" },
-    { "name": "Faqs", "href": "/" }
+    { "name": "WhatsApp", "href": "/" },
+    { "name": "Call Now", "href": "/" }
   ],
 
   "heroData": {
-    "title": "Your awesome traffic permit consultant.",
+    "title": "Dr. Akshay's wecare multispeciality Dental clinic and Orthodontic center.",
     "sceneImg": "/images/hero/scene.svg",
     "boyImg": "/images/hero/boy.svg",
-    "girlImg": "/images/hero/girl.svg",
+    "girlImg": "/images/hero/girl-dental.png",
     "truckImg": "/images/hero/truck.svg",
     "btnText": "Get Started"
   },
 
   "aboutData": {
-    "title": "About us",
-    "subtitle": "The occupational traffic permit is one of the most important things in the company when carrying out freight transport.  In fact, it is a prerequisite for doing business traffic at all.",
-    "text": "How do you do when you need to obtain a commercial traffic permit for freight transport to your business?",
-    "boyImg": "/images/about/boy.svg"
+    "title": "WE ASSURES QUALITY TREATMENT FOR YOU",
+    "subtitle": "We are Happy to introduce 3M brand, that is one of the Worlds Best Material for Making CROWN 👑 For a Natural Look and Long-term durability with a Warranty period of 15 years.If you wish to have a celebrity Smile,according to your convenience. For the Orthodontic Treatment,we provide Latest techniques which Helps to be More efficient and effective with a short term period.And We uses,  Imported Orthodontic appliances for the comfort of Patients.",
+    "text": "We are open on festival holidays,book appointments according to your convince, Regards Dr Akshay Ramesh",
+    "boyImg": "/images/about/h-img.png",
+    "boyImg1": "/images/about/boy.svg"
+
   },
 
   "howData": {
-    "title": "How to apply",
-    "subtitle": "When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO.",
-    "girlImg": "/images/how/girl.svg"
+    "title": "",
+    "subtitle": "Hello everyone,We are proudly introducing best in class quality Dentures With Affordable budget,For a Celebrity Smile visit,Dr Akshay's Wecare multispeciality dental clinic and orthodontic centre. (We provides Zirconia crowns 👑,Different quantities of Metal free crowns 👑,IVOCLAR Crowns👑 ,PFM crowns 👑,Complete Dentures(CD),Removable Partial Dentures.We use latest techniques and best quality Orthodontic appliances helps minimal period of time. Your smile is our Responsibility,WeCare your smiles.For appointments,book online or visit Dr Akshay's Wecare multispeciality dental clinic and orthodontic centre.",
+    "girlImg": "/images/how/booking.png",
+    "girlImg1": "/images/how/girl.svg"
+
   },
 
   "faqData": {
     "pretitle": "faq",
-    "title": "Questions and Answers on Professional Traffic Permits:",
-    "boyImg": "/images/faq/boy.svg",
+    "title": "It's not that complicated to do filings on Anterior Tooth,We do miracles with 3M composite Filling Material which will be in your best Budget.Keep smiling and We promises the best in Class quality Treatments with minimal effort and Budget friendly.Wishing you a wonderful blessed Newyear.Keep smiling and Your smile is our Responsibility.Thank you for supporting us.",
+    "boyImg": "/images/faq/tooth.png",
+    "boyImg1": "/images/faq/boy.svg",
+    "gallery": [
+      {
+        "image": "/images/faq/IMG-0914.jpg"
+      },
+      {
+        "image": "/images/faq/IMG-0915.jpg"
+      },
+      {
+        "image": "/images/faq/IMG-0916.jpg"
+      },
+      {
+        "image": "/images/faq/IMG-0917.jpg"
+      },
+      {
+        "image": "/images/faq/IMG-0919.jpg"
+      }
+    ],
+
     "accordions": [
       {
         "question": "What is a professional traffic permit?",
@@ -93,46 +118,34 @@
     "title": "Our Awesome Clients",
     "clients": [
       {
-        "message": "Yes, you will need to have the land owner sign the permit application as the Permittee, and you sign the permit as the Applicant or Agent for the Permittee.",
-        "image": "/images/testimonials/avatar1.png",
-        "name": "Isak Pettersson"
+        "message": "I had visited clinic for tooth ache,Dr Akshay sir explained  my present condition of tooth,I undergone root canal Treatment which was completely painless for me and I was so comfortable after the crown he had put on me,it looks as same like my real tooth,I highly recommend this place.",
+        "image": "/images/testimonials/unnamed.png",
+        "name": "ANITTA POLACHAN"
       },
       {
-        "message": "From most barricade or traffic control companies located in the phone book. They employ certified Traffic Control Supervisors (TCS) who can generate and certify the traffic control plan.",
-        "image": "/images/testimonials/avatar2.png",
-        "name": "Simon Sandberg"
+        "message": "I had a great experience here . Dr Akshay sir conducted a very patient and thorough assessment and explained procedures as well.i have been to wecare more than once.i would highly recommend everyone in bengalaru to check out this clinic!!",
+        "image": "/images/testimonials/unnamed (1).png",
+        "name": "Andu"
       },
       {
-        "message": "An A-Line, or access restriction deed is a property right that has been obtained by CDOT for the sole purpose of prohibiting direct",
-        "image": "/images/testimonials/avatar3.png",
-        "name": "Melissa Doe"
-      },
-      {
-        "message": "Yes, you will need to have the land owner sign the permit application as the Permittee, and you sign the permit as the Applicant or Agent for the Permittee.",
-        "image": "/images/testimonials/avatar1.png",
-        "name": "Isak Pettersson"
-      },
-      {
-        "message": "From most barricade or traffic control companies located in the phone book. They employ certified Traffic Control Supervisors (TCS) who can generate and certify the traffic control plan.",
-        "image": "/images/testimonials/avatar2.png",
-        "name": "Simon Sandberg"
-      },
-      {
-        "message": "An A-Line, or access restriction deed is a property right that has been obtained by CDOT for the sole purpose of prohibiting direct",
-        "image": "/images/testimonials/avatar3.png",
-        "name": "Melissa Doe"
+        "message": "Am so happy with your treatment good sir",
+        "image": "/images/testimonials/unnamed (2).png",
+        "name": "Raju Sahu"
       }
+      
     ]
   },
   "footerData": {
-    "truckImg": "/images/footer/truck.svg",
+    "truckImg": "/images/footer/clinic.jpg",
+    "truckImg1": "/images/footer/truck.svg",
+
     "hillImg": "/images/footer/hill.svg",
-    "text": "We provide traffic management consultants so you get started quickly, contact us for a quote today!",
-    "logo": "/images/footer/logo.svg",
+    "text": "VP Road, Old Madiwala, Dollar Scheme Colony, 1st Stage, BTM Layout Bengaluru, Karnataka 560068, India",
+    "logo1": "/images/footer/logo.svg",
+    "logo": "/images/footer/logo copy.svg",
+
     "links": [
-      { "name": "about", "href": "/" },
-      { "name": "how to", "href": "/" },
-      { "name": "faqs", "href": "/" }
+      { "name": "Contact No:-  07676945766", "href": " " }
     ],
     "form": {
       "labelName": "Name",
