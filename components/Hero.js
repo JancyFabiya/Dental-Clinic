@@ -18,7 +18,9 @@ const Hero = ({ heroData, headerData, navData }) => {
 
         <motion.h1
           variants={fadeInDown}
-          className='h1 max-w-[740px] text-white pt-[12rem] '>
+          // className='h1 max-w-[740px] text-white pt-[12rem] '>
+          className='h1 max-w-[740px] text-white pt-[16rem] text-4xl md:text-5xl lg:text-6xl'>
+
           {title}
         </motion.h1>
 

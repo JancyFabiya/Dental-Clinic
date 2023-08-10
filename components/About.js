@@ -13,7 +13,7 @@ const About = ({aboutData}) => {
         variants={staggerTextContainer}
         initial='initial'
         whileInView={'animate'}
-        viewport={{once: false, amount: 0.6}}
+        // viewport={{once: false, amount: 0.6}}
          className='flex flex-col lg:flex-row gap-x-[20px]'>
          
           <motion.div

@@ -39,7 +39,7 @@ const nextSlide = ()=>{
         variants={staggerTextContainer}
         initial='initial'
         whileInView={'animate'}
-        viewport={{once:false, amount:0.6}}
+        // viewport={{once:false, amount:0.6}}
          className='relative flex flex-col lg:flex-row justify-center lg:justify-start items-center pt-8 pb-16 lg:pt-16 lg:pb-32'>
         
          <motion.div
