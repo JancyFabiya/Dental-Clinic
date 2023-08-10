@@ -11,7 +11,7 @@ const Copyright = () => {
       className="h-[140px] text-white">
      <div className="container mx-auto h-full">
       <div className="flex justify-between itemms-center h-full lg:pr-24">
-      <p>Copyright &copy; 2022</p>
+      <p>Copyright &copy; FabiyaBrothers</p>
      
       </div>
      </div>

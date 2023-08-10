@@ -13,12 +13,14 @@ const Testimonials = ({testimonialData}) => {
 
   return(
      <section className='relative min-h-[600px]'>
-      <div className='container mx-auto'>
-        <motion.div
-        variants={staggerTextContainer}
+      <motion.div
+       variants={staggerTextContainer}
         initial='initial'
         whileInView={'animate'}
         viewport={{once: false,amount: 0.6}}
+         className='container mx-auto'>
+        <div
+       
          className='flex flex-col lg:flex-row'>
           <motion.div
           variants={fadeInUp}
@@ -31,10 +33,12 @@ const Testimonials = ({testimonialData}) => {
            className='lg:w-[60%] lg:absolute lg:right-0'>
           <Slider clients={clients}/>
         </motion.div>
-        </motion.div>
-            <button className='btn' onClick={handleButtonClick}>Write A Review</button>
+        </div>
+            <motion.button 
+          variants={fadeInUp}
+            className='btn' onClick={handleButtonClick}>Write A Review</motion.button>
 
-      </div>
+      </motion.div>
      </section>
   )
 };

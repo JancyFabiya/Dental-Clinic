@@ -10,6 +10,8 @@ const NavMobile = () => {
   }
   return (
     <nav className="bg-white w-full p-4">
+
+  
       <ul className="flex flex-col gap-y-6">
        
             <li>
